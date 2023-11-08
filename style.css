@@ -27,3 +27,15 @@
   grid-area: myNavBar;
   overflow: hidden;
 }
+
+.title {
+  color: red;
+}
+
+.text{
+  color:white;
+}
+
+.fondo{
+  background-color: black;
+}
