@@ -15,14 +15,33 @@
     <div class="myContent">
       <div class="myMain"></div>
     </div>
-    <div class="myNavBar" style="background-color: rgb(0, 0, 0)">
-      <div class="row">
-        <div class="col-10">
-          <img src="/imgs/AstroPenguin.png" width="100px" height="auto" class="my-3 mx-2" />
-          <img src="/imgs/KrakenStudios.png" width="100px" height="auto" class="my-3 mx-2" />
-          <img src="/imgs/OzcarDev.png" width="100px" height="auto" class="my-3 mx-2" />
+    <div class="myNavBar bgNavbar">
+      <nav class="navbar">
+        <div class="container-fluid">
+          <div class="justify-content-start">
+            <img src="/imgs/AstroPenguin.png" style="width: auto; height: 40px" />
+          </div>
+          <div class="justify-container-center">
+            <div>
+              <form>
+                <input class="myFormControl me-2" type="search" placeholder="Buscar"/>
+                <button class="mybtn btn-outline-success" type="submit">Search</button>
+              </form>
+              
+            </div>
+          </div>
+          <div class="justify-content-end">
+            <form>
+              <button class="btn btn-sm btn-outline-secondary" type="button">
+                Log In
+              </button>
+              <button class="btn btn-sm btn-outline-secondary" type="button">
+                Sign Up
+              </button>
+            </form>
+          </div>
         </div>
-      </div>
+      </nav>
     </div>
   </div>
 </body>
