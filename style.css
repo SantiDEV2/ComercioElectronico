@@ -3,16 +3,25 @@
   --main-colorText: rgb(227, 180, 122);
   --main-colorBackground: rgb(6, 11, 17);
   --main-colorFooter: rgb(24, 38, 52);
-  --main-colorControl: rgb(141, 64, 47)
+  --main-colorControl: rgb(141, 64, 47);
+  --main-colorComplement: rgb(24, 38, 52);
+}
+
+hr{
+  border: 3px solid !important;
+  color: var(--main-colorComplement) !important;
 }
 
 .background{
-
   background-color: var(--main-colorBackground);
 }
 
 .textColor{
   color: var(--main-colorText) !important; 
+}
+
+.complementColor{
+  background-color: var(--main-colorComplement) !important;
 }
 
 .myContainer {
@@ -42,7 +51,7 @@
 
 .myNavBar {
   grid-area: myNavBar;
-/*   overflow: hidden;  */
+  overflow: hidden;  
   background-color: var(--main-colorNavBar);
 }
 
@@ -58,6 +67,11 @@
   background-color: var(--main-colorControl);
   border-radius: 30px;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.border30{
+  border: 10px solid var(--main-colorComplement);
+  border-radius: 30px;
 }
 
 .mybtn{
@@ -94,4 +108,15 @@
   border-color: transparent;
   background-color: var(--main-colorControl);
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.notA{
+  text-decoration: none;
+  color: var(--main-colorText);
+}
+
+@media only screen and (min-width: 428px) {
+  .myContent {
+      display: none;
+  }
 }
