@@ -51,7 +51,6 @@ hr{
 
 .myNavBar {
   grid-area: myNavBar;
-  overflow: hidden;  
   background-color: var(--main-colorNavBar);
 }
 
@@ -115,8 +114,42 @@ hr{
   color: var(--main-colorText);
 }
 
-@media only screen and (min-width: 428px) {
+/* @media only screen and (min-width: 428px) {
   .myContent {
       display: none;
+  }
+} */
+
+.remButton{
+  margin-left: 12rem;
+}
+
+@media only screen and (min-width: 576px) {
+  .remButton{
+    margin-left: 8rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .remButton{
+    margin-left: 4rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .remButton{
+    margin-left: 6rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .remButton{
+    margin-left: 8rem;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .remButton{
+    margin-left: 8rem;
   }
 }
