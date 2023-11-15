@@ -51,7 +51,6 @@ hr{
 
 .myNavBar {
   grid-area: myNavBar;
-  overflow: hidden;  
   background-color: var(--main-colorNavBar);
 }
 
