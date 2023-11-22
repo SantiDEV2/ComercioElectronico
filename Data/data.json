@@ -157,5 +157,165 @@
         "Category":"Mini Figure",
         "SubCategory":"Mini"
       }      
-    }   
+    } ,  
+
+    "2":
+    {
+      "Producto01":
+      {
+        "Name": "Beholder Variant",
+        "Price": "220.00",
+        "Description": "",
+        "Rating": "5",
+        "Img":"https://dmsphylactery.com/wp-content/uploads/2022/12/wzk90431.jpg",
+        "Storage":"10",
+        "CreationDate":"21/11/2023",
+        "ID":"013",
+        "Category":"Mini Figure",
+        "SubCategory":"Regular"
+      } ,
+      "Producto02":
+      {
+        "Name": "Abominable Yeti",
+        "Price": "320.00",
+        "Description": "",
+        "Rating": "3",
+        "Img":"https://dmsphylactery.com/wp-content/uploads/2022/12/wzk90433.jpg",
+        "Storage":"10",
+        "CreationDate":"21/11/2023",
+        "ID":"014",
+        "Category":"Mini Figure",
+        "SubCategory":"Regular"
+      } ,
+      "Producto03":
+      {
+        "Name": "Boneclaw",
+        "Price": "195.00",
+        "Description": "",
+        "Rating": "4",
+        "Img":"https://dmsphylactery.com/wp-content/uploads/2022/12/wzk90317.jpg",
+        "Storage":"10",
+        "CreationDate":"21/11/2023",
+        "ID":"015",
+        "Category":"Mini Figure",
+        "SubCategory":"Regular"
+      } ,
+      "Producto04":
+      {
+        "Name": "Cavern Troll",
+        "Price": "360.00",
+        "Description": "",
+        "Rating": "4",
+        "Img":"https://dmsphylactery.com/wp-content/uploads/2022/12/wzk90499_2.jpg",
+        "Storage":"10",
+        "CreationDate":"21/11/2023",
+        "ID":"016",
+        "Category":"Mini Figure",
+        "SubCategory":"Regular"
+      } ,
+      "Producto05":
+      {
+        "Name": "Blue Dragon",
+        "Price": "360.00",
+        "Description": "",
+        "Rating": "5",
+        "Img":"https://dmsphylactery.com/wp-content/uploads/2022/12/wzk90267.jpg",
+        "Storage":"10",
+        "CreationDate":"21/11/2023",
+        "ID":"017",
+        "Category":"Mini Figure",
+        "SubCategory":"Regular"
+      } ,
+      "Producto06":
+      {
+        "Name": "Chimera",
+        "Price": "325.00",
+        "Description": "",
+        "Rating": "4",
+        "Img":"https://dmsphylactery.com/wp-content/uploads/2022/12/wzk90424.jpg",
+        "Storage":"10",
+        "CreationDate":"21/11/2023",
+        "ID":"018",
+        "Category":"Mini Figure",
+        "SubCategory":"Regular"
+      } ,
+      "Producto07":
+      {
+        "Name": "Cosmo Serpent",
+        "Price": "220.00",
+        "Description": "",
+        "Rating": "5",
+        "Img":"https://dmsphylactery.com/wp-content/uploads/2022/12/3-600x600.jpg",
+        "Storage":"10",
+        "CreationDate":"21/11/2023",
+        "ID":"019",
+        "Category":"Mini Figure",
+        "SubCategory":"Regular"
+      } ,
+      "Producto08":
+      {
+        "Name": "Cyclops",
+        "Price": "320.00",
+        "Description": "",
+        "Rating": "5",
+        "Img":"https://dmsphylactery.com/wp-content/uploads/2022/12/wzk90432.jpg",
+        "Storage":"10",
+        "CreationDate":"21/11/2023",
+        "ID":"020",
+        "Category":"Mini Figure",
+        "SubCategory":"Regular"
+      } ,
+      "Producto09":
+      {
+        "Name": "D&D Nolzur’s Marvelous Unpainted Minis: Hill Giant",
+        "Price": "325.00",
+        "Description": "",
+        "Rating": "3",
+        "Img":"https://dmsphylactery.com/wp-content/uploads/2022/12/wzk90497_2.jpg",
+        "Storage":"10",
+        "CreationDate":"21/11/2023",
+        "ID":"021",
+        "Category":"Mini Figure",
+        "SubCategory":"Regular"
+      } ,
+      "Producto10":
+      {
+        "Name": "Dire Troll",
+        "Price": "320.00",
+        "Description": "",
+        "Rating": "4",
+        "Img":"https://dmsphylactery.com/wp-content/uploads/2022/12/wzk90257.jpg",
+        "Storage":"10",
+        "CreationDate":"21/11/2023",
+        "ID":"022",
+        "Category":"Mini Figure",
+        "SubCategory":"Regular"
+      } ,
+      "Producto11":
+      {
+        "Name": "Djinni",
+        "Price": "195.00",
+        "Description": "",
+        "Rating": "2",
+        "Img":"https://dmsphylactery.com/wp-content/uploads/2022/12/wzk90162_1.jpg",
+        "Storage":"10",
+        "CreationDate":"21/11/2023",
+        "ID":"023",
+        "Category":"Mini Figure",
+        "SubCategory":"Regular"
+      } ,
+      "Producto12":
+      {
+        "Name": "Dragonne",
+        "Price": "325.00",
+        "Description": "",
+        "Rating": "5",
+        "Img":"https://dmsphylactery.com/wp-content/uploads/2022/12/wzk90492_2.jpg",
+        "Storage":"10",
+        "CreationDate":"21/11/2023",
+        "ID":"024",
+        "Category":"Mini Figure",
+        "SubCategory":"Regular"
+      }
+    }
 }
