@@ -317,5 +317,164 @@
         "Category":"Mini Figure",
         "SubCategory":"Regular"
       }
+    } ,
+    "3":
+    {
+      "Producto01":
+      {
+        "Name": "Adult Black Dragon",
+        "Price": "2,182.00",
+        "Description": "",
+        "Rating": "5",
+        "Img":"https://dmsphylactery.com/wp-content/uploads/2022/12/wzk90577_1.jpg",
+        "Storage":"10",
+        "CreationDate":"24/11/2023",
+        "ID":"025",
+        "Category":"Mini Figure",
+        "SubCategory":"Big"
+      } ,
+      "Producto02":
+      {
+        "Name": "Adult Bronze Dragon",
+        "Price": "2,182.00",
+        "Description": "",
+        "Rating": "5",
+        "Img":"https://dmsphylactery.com/wp-content/uploads/2022/12/wzk90565.jpg",
+        "Storage":"10",
+        "CreationDate":"24/11/2023",
+        "ID":"026",
+        "Category":"Mini Figure",
+        "SubCategory":"Big"
+      } ,
+      "Producto03":
+      {
+        "Name": "Adult Green Dragon",
+        "Price": "2,195.00",
+        "Description": "",
+        "Rating": "5",
+        "Img":"https://dmsphylactery.com/wp-content/uploads/2022/12/wzk90575_1.jpg",
+        "Storage":"10",
+        "CreationDate":"24/11/2023",
+        "ID":"027",
+        "Category":"Mini Figure",
+        "SubCategory":"Big"
+      } ,
+      "Producto04":
+      {
+        "Name": "Adult Red Dragon",
+        "Price": "2,195.00",
+        "Description": "",
+        "Rating": "5",
+        "Img":"https://dmsphylactery.com/wp-content/uploads/2022/12/wzk90578_1-600x600.jpg",
+        "Storage":"10",
+        "CreationDate":"24/11/2023",
+        "ID":"028",
+        "Category":"Mini Figure",
+        "SubCategory":"Big"
+      } ,
+      "Producto05":
+      {
+        "Name": "Adult Silver Dragon",
+        "Price": "2,480.00",
+        "Description": "",
+        "Rating": "5",
+        "Img":"https://dmsphylactery.com/wp-content/uploads/2022/12/a6276c6e-af7f-4adb-925e-5bbcff60d63f-600x600.jpg",
+        "Storage":"10",
+        "CreationDate":"24/11/2023",
+        "ID":"029",
+        "Category":"Mini Figure",
+        "SubCategory":"Big"
+      } ,
+      "Producto06":
+      {
+        "Name": "Adult Emerald Dragon",
+        "Price": "2,435.00",
+        "Description": "",
+        "Rating": "5",
+        "Img":"https://dmsphylactery.com/wp-content/uploads/2022/12/dnd-iotr-adultemeralddragon15-823432-v1iCQ9Xn-600x600.jpg",
+        "Storage":"10",
+        "CreationDate":"24/11/2023",
+        "ID":"030",
+        "Category":"Mini Figure",
+        "SubCategory":"Big"
+      } ,
+      "Producto07":
+      {
+        "Name": "Adult Topaz Dragon",
+        "Price": "2,000.00",
+        "Description": "",
+        "Rating": "5",
+        "Img":"https://dmsphylactery.com/wp-content/uploads/2023/08/dd_figurineP_adultTopazDragon-600x600.webp",
+        "Storage":"10",
+        "CreationDate":"24/11/2023",
+        "ID":"031",
+        "Category":"Mini Figure",
+        "SubCategory":"Big"
+      } ,
+      "Producto08":
+      {
+        "Name": "Ao, the Dawn Sky",
+        "Price": "970.00",
+        "Description": "",
+        "Rating": "5",
+        "Img":"https://dmsphylactery.com/wp-content/uploads/2022/12/2.jpg",
+        "Storage":"10",
+        "CreationDate":"24/11/2023",
+        "ID":"032",
+        "Category":"Mini Figure",
+        "SubCategory":"Big"
+      } ,
+      "Producto09":
+      {
+        "Name": "Arveiaturace",
+        "Price": "2,435.00",
+        "Description": "",
+        "Rating": "5",
+        "Img":"https://dmsphylactery.com/wp-content/uploads/2022/12/arveiaturace7-903474-UN8Lsg0i-600x600.jpg",
+        "Storage":"10",
+        "CreationDate":"24/11/2023",
+        "ID":"033",
+        "Category":"Mini Figure",
+        "SubCategory":"Big"
+      } ,
+      "Producto10":
+      {
+        "Name": "Blue Dracolich",
+        "Price": "1,475.00",
+        "Description": "",
+        "Rating": "5",
+        "Img":"https://dmsphylactery.com/wp-content/uploads/2023/08/71QZzhsXskL-600x600.jpg",
+        "Storage":"10",
+        "CreationDate":"24/11/2023",
+        "ID":"034",
+        "Category":"Mini Figure",
+        "SubCategory":"Big"
+      } ,
+      "Producto11":
+      {
+        "Name": "Demogorgon, Prince of Demons",
+        "Price": "2,182.00",
+        "Description": "",
+        "Rating": "5",
+        "Img":"https://dmsphylactery.com/wp-content/uploads/2022/12/demogorgon20_1024x1024-600x600.jpg",
+        "Storage":"10",
+        "CreationDate":"24/11/2023",
+        "ID":"035",
+        "Category":"Mini Figure",
+        "SubCategory":"Big"
+      } ,
+      "Producto12":
+      {
+        "Name": "Purple Worm",
+        "Price": "875.00",
+        "Description": "",
+        "Rating": "5",
+        "Img":"https://dmsphylactery.com/wp-content/uploads/2022/12/wzk90530_1.jpg",
+        "Storage":"10",
+        "CreationDate":"24/11/2023",
+        "ID":"036",
+        "Category":"Mini Figure",
+        "SubCategory":"Big"
+      } 
     }
 }
