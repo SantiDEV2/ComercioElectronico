@@ -758,18 +758,161 @@
     },
     "6":
     {
-      "Producto12":
+      "Producto01":
       {
-        "Name": "Hanako-san",
-        "Price": "210.00",
+        "Name": "Dragonlance: Shadow of the Dragon Queen – INGLÉS",
+        "Price": "875.00",
         "Description": "",
         "Rating": "5",
-        "Img":"https://dmsphylactery.com/wp-content/uploads/2022/11/DSCN0328-600x450.jpg",
+        "Img":"https://dmsphylactery.com/wp-content/uploads/2023/08/71yvGWpuKsL._AC_UF8941000_QL80_-600x691.jpg",
         "Storage":"10",
         "CreationDate":"24/11/2023",
-        "ID":"057",
-        "Category":"Dice",
-        "SubCategory":"Fosforecente"
+        "ID":"058",
+        "Category":"Book",
+        "SubCategory":"D&D"
+      },
+      "Producto02":
+      {
+        "Name": "Dragonlance: Shadow of the Dragon Queen (Alternate Cover) – INGLÉS",
+        "Price": "875.00",
+        "Description": "",
+        "Rating": "5",
+        "Img":"https://dmsphylactery.com/wp-content/uploads/2023/08/7157NyRZH6L-600x780.jpg",
+        "Storage":"10",
+        "CreationDate":"24/11/2023",
+        "ID":"059",
+        "Category":"Book",
+        "SubCategory":"D&D"
+      },
+      "Producto03":
+      {
+        "Name": "Dragonlance: Shadow of the Dragon Queen (Deluxe Edition) – INGLÉS",
+        "Price": "3,250.00",
+        "Description": "",
+        "Rating": "5",
+        "Img":"https://dmsphylactery.com/wp-content/uploads/2023/08/81CJgtP-quL-600x600.jpg",
+        "Storage":"10",
+        "CreationDate":"24/11/2023",
+        "ID":"060",
+        "Category":"Book",
+        "SubCategory":"D&D"
+      },
+      "Producto04":
+      {
+        "Name": "Dragons of Stormwreck Isle Starter Set",
+        "Price": "450.00",
+        "Description": "",
+        "Rating": "5",
+        "Img":"https://dmsphylactery.com/wp-content/uploads/2023/08/D_NQ_NP_795166-MLM54179565493_032023-O.webp",
+        "Storage":"10",
+        "CreationDate":"24/11/2023",
+        "ID":"061",
+        "Category":"Book",
+        "SubCategory":"D&D"
+      },
+      "Producto05":
+      {
+        "Name": "Dungeon Master Guide",
+        "Price": "780.00",
+        "Description": "",
+        "Rating": "5",
+        "Img":"https://dmsphylactery.com/wp-content/uploads/2022/12/DSCN0877-600x800.jpg",
+        "Storage":"10",
+        "CreationDate":"24/11/2023",
+        "ID":"062",
+        "Category":"Book",
+        "SubCategory":"D&D"
+      },
+      "Producto06":
+      {
+        "Name": "Essentials Kit",
+        "Price": "580.00",
+        "Description": "",
+        "Rating": "5",
+        "Img":"https://dmsphylactery.com/wp-content/uploads/2022/12/DSCN0869-600x800.jpg",
+        "Storage":"10",
+        "CreationDate":"24/11/2023",
+        "ID":"063",
+        "Category":"Book",
+        "SubCategory":"D&D"
+      },
+      "Producto07":
+      {
+        "Name": "Fizban’s Treasury of Dragons – INGLÉS",
+        "Price": "875.00",
+        "Description": "",
+        "Rating": "5",
+        "Img":"https://dmsphylactery.com/wp-content/uploads/2023/08/DD-Fizbans-Treasury-of-Dragons-Ingles-600x600.jpg",
+        "Storage":"10",
+        "CreationDate":"24/11/2023",
+        "ID":"064",
+        "Category":"Book",
+        "SubCategory":"D&D"
+      },
+      "Producto08":
+      {
+        "Name": "Journeys Through the Radiant Citadel (Alternative Cover) – INGLÉS",
+        "Price": "900.00",
+        "Description": "",
+        "Rating": "5",
+        "Img":"https://dmsphylactery.com/wp-content/uploads/2023/08/dd-journeys-through-the-radiant-citadel-alt-front.webp",
+        "Storage":"10",
+        "CreationDate":"24/11/2023",
+        "ID":"065",
+        "Category":"Book",
+        "SubCategory":"D&D"
+      },
+      "Producto09":
+      {
+        "Name": "Keys from the Golden Vault (Alternate Cover) – INGLÉS",
+        "Price": "850.00",
+        "Description": "",
+        "Rating": "5",
+        "Img":"https://dmsphylactery.com/wp-content/uploads/2023/08/91uqHDzza8L._UC256256_CACC256256_.jpg",
+        "Storage":"10",
+        "CreationDate":"24/11/2023",
+        "ID":"066",
+        "Category":"Book",
+        "SubCategory":"D&D"
+      },
+      "Producto10":
+      {
+        "Name": "Monster Manual",
+        "Price": "780.00",
+        "Description": "",
+        "Rating": "5",
+        "Img":"https://dmsphylactery.com/wp-content/uploads/2023/01/DSCN0876-600x800.jpg",
+        "Storage":"10",
+        "CreationDate":"24/11/2023",
+        "ID":"067",
+        "Category":"Book",
+        "SubCategory":"D&D"
+      },
+      "Producto11":
+      {
+        "Name": "Monsters of the Multiverse",
+        "Price": "895.00",
+        "Description": "",
+        "Rating": "5",
+        "Img":"https://dmsphylactery.com/wp-content/uploads/2022/12/DSCN0874-600x800.jpg",
+        "Storage":"10",
+        "CreationDate":"24/11/2023",
+        "ID":"068",
+        "Category":"Book",
+        "SubCategory":"D&D"
+      },
+      "Producto12":
+      {
+        "Name": "Player’s Handbook",
+        "Price": "780.00",
+        "Description": "",
+        "Rating": "5",
+        "Img":"https://dmsphylactery.com/wp-content/uploads/2022/12/DSCN0875-600x800.jpg",
+        "Storage":"10",
+        "CreationDate":"24/11/2023",
+        "ID":"069",
+        "Category":"Book",
+        "SubCategory":"D&D"
       }
     }
 }
