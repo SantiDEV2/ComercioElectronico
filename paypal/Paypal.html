@@ -12,38 +12,12 @@
         <h1>Hola Mundo</h1>
 
         <div id="paypal-button-container"></div>
-
+        <p id="result-message"></p>
         
-        <script type="module" src="https://www.paypal.com/sdk/js?client-id=AcvWQv75zduFBZtMCEDsU5CPx1v_zXt8TJJjSY-e_iprEqRPH-zu209R-g2bsuvQ4DXLNssM3Vws0IjE&currency=USD&components=buttons">
+        <script type="module" src="https://www.paypal.com/sdk/js?client-id=AcvWQv75zduFBZtMCEDsU5CPx1v_zXt8TJJjSY-e_iprEqRPH-zu209R-g2bsuvQ4DXLNssM3Vws0IjE&currency=MXN&components=buttons">
         </script>
 
-        <script type="module">
-            paypal.Buttons({
-                async createOrder(){
-                    try{
-                        const response = await fetch("",{
-                            method: "POST",
-                            headers:{
-                                "Content-Type" : "application/json",
-                                Authorization: `Bearer ${accessToken}`
-                            },
-                            body: JSON.stringify({
-
-                            })
-                        })
-                    }catch(e){
-                        console.error(e);
-                        resultMessage(`No se puso inicializar el checkout...<br><br> ${e}`)
-                    }
-                },
-                style: {
-                    layout: 'vertical',
-                    color:  'gold',
-                    shape:  'pill',
-                    label:  'paypal'
-                }
-                }).render('#paypal-button-container');
-        </script>
+        <script type="module" src="paypal.js"></script>
         
     </body>
 </html>
