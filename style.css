@@ -12,9 +12,17 @@ hr{
   color: var(--main-colorComplement) !important;
 }
 
- .background{
+.background{
   background-color: var(--main-colorBackground);
 } 
+
+.footerbackground{
+  background-color: var(--main-colorFooter);
+}
+
+.controlBackground{
+  background-color: var(--main-colorControl);
+}
 
 .textColor{
   color: var(--main-colorText) !important; 
@@ -68,8 +76,12 @@ hr{
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
-.border30{
+.border30wColor{
   border: 10px solid var(--main-colorComplement);
+  border-radius: 30px;
+}
+
+.border30{
   border-radius: 30px;
 }
 
@@ -143,9 +155,56 @@ hr{
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
+.mybtnDropdown
+{
+  background-color: var(--main-colorControl) !important;
+  color: var(--main-colorText) !important;
+  width: 200px !important;
+  padding: 0% !important;
+}
+
+.mybtnProducts{
+  background-color: var(--main-colorControl) !important;
+  color: var(--main-colorText) !important;   
+  font-size: 23px !important;
+  line-height: 25px !important;
+  border-radius: 18px !important;        
+  margin-left: 45px;               
+}
+
 .notA{
   text-decoration: none;
   color: var(--main-colorText);
+}
+
+.myloginbtn{
+  background-color: var(--main-colorNavBar) !important;
+  color: var(--main-colorText) !important;   
+  line-height: 25px !important;
+  border-radius: 18px !important;                   
+}
+
+.inputText{
+  background-color: var(--main-colorNavBar);
+  color: var(--main-colorText);
+  border-color: transparent;
+  width: 295px;
+}
+
+.inputSubmit{
+  background-color: var(--main-colorNavBar);
+  border-color: transparent;
+  color: var(--main-colorText);
+  width: 295px;
+}
+
+.myPagebtn{
+  background-color: var(--main-colorNavBar);
+  border-color: transparent;
+  color: var(--main-colorText);
+  font-size: 18px;
+  width: 30px;
+  height: auto;
 }
 
 .remButton{
@@ -162,7 +221,6 @@ hr{
   #searchBox{
     display: none;
   }
-  
 }
 
 @media only screen and (min-width: 1002px) {
@@ -186,5 +244,14 @@ hr{
 @media only screen and (min-width: 1514px) {
   .remButton{
     margin-left: 8rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  #product{
+    text-align: center;
+  }
+  .mybtnProducts{
+    margin-left: 0px;
   }
 }
