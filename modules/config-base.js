@@ -1,4 +1,4 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-app.js";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-app.js";
 
 const firebaseConfig = {
   apiKey: "AIzaSyD-VNuqBZnj6M0JTuumPGeaAQzVlLO34C4",
