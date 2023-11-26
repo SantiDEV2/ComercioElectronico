@@ -1,8 +1,7 @@
-const animateCSS = (element, animation, prefix = 'animate__') =>
+const animateCSS = (node, animation, prefix = 'animate__') =>{
     // We create a Promise and return it
     new Promise((resolve, reject) => {
         const animationName = `${prefix}${animation}`;
-        const node = document.querySelector(element);
 
         node.classList.add(`${prefix}animated`, animationName);
 
@@ -15,4 +14,14 @@ const animateCSS = (element, animation, prefix = 'animate__') =>
 
         node.addEventListener('animationend', handleAnimationEnd, { once: true });
     });
+}
+
+const hovers = document.querySelectorAll(".hover");
+hovers.forEach(element => {
+    element.addEventListener("mouseover", (e)=> {
+        console.log("Animando");
+        animateCSS(element, 'headShake');
+    })
+});
+
 
