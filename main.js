@@ -1,4 +1,5 @@
 import { app } from "./modules/config-base.js";
-import { authGoogle } from "./modules/google-auth.js"
+/* import { showProducts } from "./modules/get-products.js"; */
 
-authGoogle(app);
+console.log(app);
+/* showProducts(app); */

@@ -14,6 +14,14 @@ hr{
 
 .background{
   background-color: var(--main-colorBackground);
+} 
+
+.footerbackground{
+  background-color: var(--main-colorFooter);
+}
+
+.controlBackground{
+  background-color: var(--main-colorControl);
 }
 
 .textColor{
@@ -68,12 +76,16 @@ hr{
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
-.border30{
+.border30wColor{
   border: 10px solid var(--main-colorComplement);
   border-radius: 30px;
 }
 
-.mybtn{
+.border30{
+  border-radius: 30px;
+}
+
+.mybtnNavbar{
   --bs-btn-padding-x: 0.75rem;
   --bs-btn-padding-y: 0.375rem;
   --bs-btn-font-family: ;
@@ -109,47 +121,137 @@ hr{
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
+
+.mybtn{
+  --bs-btn-padding-x: 6.5rem;
+  --bs-btn-padding-y: 1.2rem;
+  --bs-btn-font-family: ;
+  --bs-btn-font-weight: 400;
+  --bs-btn-line-height: 1.5;
+  --bs-btn-color: var(--bs-body-color);
+  --bs-btn-bg: transparent;
+  --bs-btn-border-width: var(--bs-border-width);
+  --bs-btn-border-color: transparent;
+  --bs-btn-hover-border-color: transparent;
+  --bs-btn-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
+  --bs-btn-disabled-opacity: 0.65;
+  --bs-btn-focus-box-shadow: 0 0 0 0.25rem rgba(var(--bs-btn-focus-shadow-rgb), .5);
+  display: inline-block;
+  padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x);
+  font-family: var(--bs-btn-font-family);
+  font-weight: var(--bs-btn-font-weight);
+  line-height: var(--bs-btn-line-height);
+  color: var(--main-colorText);
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  border-radius: 15px;
+  border-color: transparent;
+  background-color: var(--main-colorControl);
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.mybtnDropdown
+{
+  background-color: var(--main-colorControl) !important;
+  color: var(--main-colorText) !important;
+  width: 200px !important;
+  padding: 0% !important;
+}
+
+.mybtnProducts{
+  background-color: var(--main-colorControl) !important;
+  color: var(--main-colorText) !important;   
+  font-size: 23px !important;
+  line-height: 25px !important;
+  border-radius: 18px !important;        
+  margin-left: 45px;               
+}
+
 .notA{
   text-decoration: none;
   color: var(--main-colorText);
 }
 
-/* @media only screen and (min-width: 428px) {
-  .myContent {
-      display: none;
-  }
-} */
+.myloginbtn{
+  background-color: var(--main-colorNavBar) !important;
+  color: var(--main-colorText) !important;   
+  line-height: 25px !important;
+  border-radius: 18px !important;                   
+}
+
+.inputText{
+  background-color: var(--main-colorNavBar);
+  color: var(--main-colorText);
+  border-color: transparent;
+  width: 295px;
+}
+
+.inputSubmit{
+  background-color: var(--main-colorNavBar);
+  border-color: transparent;
+  color: var(--main-colorText);
+  width: 295px;
+}
+
+.myPagebtn{
+  background-color: var(--main-colorNavBar);
+  border-color: transparent;
+  color: var(--main-colorText);
+  font-size: 18px;
+  width: 30px;
+  height: auto;
+}
 
 .remButton{
   margin-left: 12rem;
 }
 
-@media only screen and (min-width: 576px) {
+@media only screen and (max-width: 1001px) {
   .remButton{
-    margin-left: 8rem;
+    display: none;
+  }
+  .dropdown{
+    display: none;
+  }
+  #searchBox{
+    display: none;
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1002px) {
+  .remButton{
+    margin-left: 0rem;
+  }
+}
+
+@media only screen and (min-width: 1258px) {
   .remButton{
     margin-left: 4rem;
   }
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1386px) {
   .remButton{
     margin-left: 6rem;
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1514px) {
   .remButton{
     margin-left: 8rem;
   }
 }
 
-@media only screen and (min-width: 1400px) {
-  .remButton{
-    margin-left: 8rem;
+@media only screen and (max-width: 576px) {
+  #product{
+    text-align: center;
+  }
+  .mybtnProducts{
+    margin-left: 0px;
   }
 }
