@@ -65,6 +65,11 @@ window.paypal.Buttons({
             resultMessage(`No se puso inicializar el checkout...<br><br> ${e}`)
         }
     },
+
+    async onApprove(data, actions){
+        window.location.replace("http://127.0.0.1:5500/index.html");
+    },
+
     style: {
         layout: 'vertical',
         color:  'gold',
