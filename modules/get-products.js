@@ -10,8 +10,8 @@ let $products = document.querySelector("#products");
 let $template = "";
 
 document.addEventListener("click", (e) => {
-  $products.innerHTML = $template;
-  if (e.target.matches("#valueBtn")) {
+    if (e.target.matches("#valueBtn")) {
+    $products.innerHTML = $template;
     setPage(e.target.value);
   }
 });
