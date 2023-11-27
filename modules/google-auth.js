@@ -45,6 +45,8 @@ export function authGoogle(app) {
       $accountInfo.classList.remove("d-none");
       $accountbtns.classList.add("d-none");
     } else {
+      $accountInfo.classList.add("d-none");
+      $accountbtns.classList.remove("d-none")
       console.log(false);
     }
   })
