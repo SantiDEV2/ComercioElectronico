@@ -6,7 +6,11 @@ Nuestro Comercio Electronico será sobre mini figuras para juegos de rol tipo "D
 ## Integrantes:
 
 - Luis Alfonso Martín Velázquez : Implementación de pago con Paypal
-- Edson Gutierrez Prado : Hoja de estilos 
+- Edson Gutierrez Prado : 
+  -Hoja de estilos
+  - Animaciones de css
+  - Actualización de páginas de html
+  - Integración de clases en hoja de estilos
 - Santiago Mondragón Ramírez : Frontend
 - Oscar Yair Núñez Hernández : 
   - Mockups y diseño de interfaz de la página.
