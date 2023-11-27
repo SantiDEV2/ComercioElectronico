@@ -14,6 +14,7 @@ export function authGoogle(app) {
   let $userText = document.querySelector("#userName"),
     $accountbtns = document.querySelector("#accountBtns"),
     $accountInfo = document.querySelector("#accountInfo"),
+    $accountImg,
     $accountName;
 
   document.addEventListener("click", (e) => {
@@ -23,7 +24,9 @@ export function authGoogle(app) {
           const credential = GoogleAuthProvider.credentialFromResult(res);
           const token = credential.accessToken;
           $accountName = res.user.email;
-          console.log($accountName);
+          $accountImg = res.user.photoURL;
+          localStorage.setItem("userPhoto",$accountImg);
+          localStorage.setItem("userEmail",$accountName);
           $userText.innerHTML = `<img src="${res.user.photoURL}" style="width: 30px; height: auto;" class="mx-1" border-30>${res.user.displayName}`;
           $accountInfo.classList.remove("d-none");
           $accountbtns.classList.add("d-none");
@@ -38,7 +41,9 @@ export function authGoogle(app) {
 
   onAuthStateChanged(auth, (user) => {
     if (user) {
-      console.log(true);
+      $userText.innerHTML = `<img src="${localStorage.getItem("userPhoto")}" style="width: 30px; height: auto;" class="mx-1">${localStorage.getItem("userEmail")}`;
+      $accountInfo.classList.remove("d-none");
+      $accountbtns.classList.add("d-none");
     } else {
       console.log(false);
     }
