@@ -5,14 +5,14 @@ const carrito = {
         const carritoObj = JSON.parse(currrentCarrito);
         const articulos = carritoObj.articulos;
 
-        console.log(articulos);
-
         let actualizado = false;
 
         let newArticles = articulos.map((articulo) => {
             if(articulo.ID === objecto.ID){
-                console.log("Es el mismo objecto");
+                
                 articulo.agregados++;
+                if(articulo.agregados > articulo.Storage)
+                    articulo.agregados = articulo.Storage;
                 actualizado = true;
             }
 
@@ -68,6 +68,16 @@ const carrito = {
         const newCarrito = {...carritoObj, articulos: articulos}
         console.log("new Carrito: ", newCarrito);
         window.localStorage.setItem("carrito", JSON.stringify(newCarrito))
+    },
+    comprarCarrito: () => {
+        window.localStorage.setItem("carrito", JSON.stringify({articulos : []}));
+    },
+    obtenerArticulos: () => {
+        const currrentCarrito = window.localStorage.getItem("carrito");
+        
+        const carritoObj = JSON.parse(currrentCarrito);
+        const articulos = carritoObj.articulos;
+        return articulos;
     }
 }
 

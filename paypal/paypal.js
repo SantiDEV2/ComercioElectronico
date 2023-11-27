@@ -1,3 +1,5 @@
+import carrito from "./carrito.js";
+
 window.paypal.Buttons({
     async createOrder(){
         try{
@@ -25,11 +27,11 @@ window.paypal.Buttons({
                     {
                         amount:{
                             currency_code: "MXN",
-                            value: "400",
+                            value: "400.00",
                             breakdown:{
                                 item_total:{
                                     currency_code: "MXN",
-                                    value: "400"
+                                    value: "400.00"
                                 }
                             }
                         },
@@ -41,7 +43,7 @@ window.paypal.Buttons({
                                 quantity: 2,
                                 unit_amount:{
                                     currency_code: "MXN",
-                                    value:"200"
+                                    value:"200.00"
                                 }
                             }
                         ]
@@ -60,9 +62,9 @@ window.paypal.Buttons({
             const json = await response.json();
             console.log(json)
             return json.id;
-        }catch(e){
-            console.error(e);
+        }catch(e){            
             resultMessage(`No se puso inicializar el checkout...<br><br> ${e}`)
+            return;
         }
     },
 
@@ -79,6 +81,7 @@ window.paypal.Buttons({
 }).render('#paypal-button-container');
 
 function resultMessage(message) {
+    carrito.comprarCarrito();
     const container = document.querySelector("#result-message");
     container.innerHTML = message;
 }
