@@ -29,7 +29,8 @@ export function authGoogle(app){
       signInWithPopup(auth, provider)
       .then((res) => {
         const credential = GoogleAuthProvider.credentialFromResult(res);
-        $userText.innerHTML = `<img src="../imgs/UserImg.png" style="width: 30px; height: auto;" class="mx-1">${res.user.displayName}`;
+        const token = credential.accessToken;
+        $userText.innerHTML = `<img src="${res.user.photoURL}" style="width: 30px; height: auto;" class="mx-1">${res.user.displayName}`;
         $accountInfo.classList.remove("d-none");
         $accountbtns.classList.add("d-none");
         console.log(res);
