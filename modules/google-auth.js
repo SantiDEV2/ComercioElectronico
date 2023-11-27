@@ -27,7 +27,6 @@ export function authGoogle(app) {
           $userText.innerHTML = `<img src="${res.user.photoURL}" style="width: 30px; height: auto;" class="mx-1" border-30>${res.user.displayName}`;
           $accountInfo.classList.remove("d-none");
           $accountbtns.classList.add("d-none");
-          console.log(res.user.photoURL);
         })
     }
     if (e.target.matches("#logout")) {
@@ -39,7 +38,6 @@ export function authGoogle(app) {
 
   onAuthStateChanged(auth, (user) => {
     if (user) {
-
       console.log(true);
     } else {
       console.log(false);
