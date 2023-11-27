@@ -1,7 +1,7 @@
 {
     "1":
     {
-      "Producto01":
+      "Producto1":
       {
         "Name": "Yeth Hound",
         "Price": "115.00",
@@ -14,7 +14,7 @@
         "Category":"Mini Figure",
         "SubCategory":"Mini"
       } , 
-      "Producto02":
+      "Producto2":
       {
         "Name": "Crag Cat",
         "Price": "122.00",
@@ -27,7 +27,7 @@
         "Category":"Mini Figure",
         "SubCategory":"Mini"
       } , 
-      "Producto03":
+      "Producto3":
       {
         "Name": "Barbed Devils",
         "Price": "110.00",
@@ -40,7 +40,7 @@
         "Category":"Mini Figure",
         "SubCategory":"Mini"
       } , 
-      "Producto04":
+      "Producto4":
       {
         "Name": "Bodaks",
         "Price": "110.00",
@@ -53,7 +53,7 @@
         "Category":"Mini Figure",
         "SubCategory":"Mini"
       } , 
-      "Producto05":
+      "Producto5":
       {
         "Name": "Bronze Dragon Wyrmling & Pile of Sea found Treasure",
         "Price": "122.00",
@@ -66,7 +66,7 @@
         "Category":"Mini Figure",
         "SubCategory":"Mini"
       } , 
-      "Producto06":
+      "Producto6":
       {
         "Name": "Crocodile",
         "Price": "110.00",
@@ -79,7 +79,7 @@
         "Category":"Mini Figure",
         "SubCategory":"Mini"
       } , 
-      "Producto07":
+      "Producto7":
       {
         "Name": "D&D Nolzur’s Marvelous Unpainted Minis: Nothics",
         "Price": "115.00",
@@ -92,7 +92,7 @@
         "Category":"Mini Figure",
         "SubCategory":"Mini"
       } , 
-      "Producto08":
+      "Producto8":
       {
         "Name": "Duergar Fighters",
         "Price": "122.00",
@@ -105,7 +105,7 @@
         "Category":"Mini Figure",
         "SubCategory":"Mini"
       } , 
-      "Producto09":
+      "Producto9":
       {
         "Name": "Doppelganger",
         "Price": "110.00",
@@ -161,7 +161,7 @@
 
     "2":
     {
-      "Producto01":
+      "Producto1":
       {
         "Name": "Beholder Variant",
         "Price": "220.00",
@@ -174,7 +174,7 @@
         "Category":"Mini Figure",
         "SubCategory":"Regular"
       } ,
-      "Producto02":
+      "Producto2":
       {
         "Name": "Abominable Yeti",
         "Price": "320.00",
@@ -187,7 +187,7 @@
         "Category":"Mini Figure",
         "SubCategory":"Regular"
       } ,
-      "Producto03":
+      "Producto3":
       {
         "Name": "Boneclaw",
         "Price": "195.00",
@@ -200,7 +200,7 @@
         "Category":"Mini Figure",
         "SubCategory":"Regular"
       } ,
-      "Producto04":
+      "Producto4":
       {
         "Name": "Cavern Troll",
         "Price": "360.00",
@@ -213,7 +213,7 @@
         "Category":"Mini Figure",
         "SubCategory":"Regular"
       } ,
-      "Producto05":
+      "Producto5":
       {
         "Name": "Blue Dragon",
         "Price": "360.00",
@@ -226,7 +226,7 @@
         "Category":"Mini Figure",
         "SubCategory":"Regular"
       } ,
-      "Producto06":
+      "Producto6":
       {
         "Name": "Chimera",
         "Price": "325.00",
@@ -239,7 +239,7 @@
         "Category":"Mini Figure",
         "SubCategory":"Regular"
       } ,
-      "Producto07":
+      "Producto7":
       {
         "Name": "Cosmo Serpent",
         "Price": "220.00",
@@ -252,7 +252,7 @@
         "Category":"Mini Figure",
         "SubCategory":"Regular"
       } ,
-      "Producto08":
+      "Producto8":
       {
         "Name": "Cyclops",
         "Price": "320.00",
@@ -265,7 +265,7 @@
         "Category":"Mini Figure",
         "SubCategory":"Regular"
       } ,
-      "Producto09":
+      "Producto9":
       {
         "Name": "D&D Nolzur’s Marvelous Unpainted Minis: Hill Giant",
         "Price": "325.00",
@@ -320,7 +320,7 @@
     } ,
     "3":
     {
-      "Producto01":
+      "Producto1":
       {
         "Name": "Adult Black Dragon",
         "Price": "2,182.00",
@@ -333,7 +333,7 @@
         "Category":"Mini Figure",
         "SubCategory":"Big"
       } ,
-      "Producto02":
+      "Producto2":
       {
         "Name": "Adult Bronze Dragon",
         "Price": "2,182.00",
@@ -346,7 +346,7 @@
         "Category":"Mini Figure",
         "SubCategory":"Big"
       } ,
-      "Producto03":
+      "Producto3":
       {
         "Name": "Adult Green Dragon",
         "Price": "2,195.00",
@@ -359,7 +359,7 @@
         "Category":"Mini Figure",
         "SubCategory":"Big"
       } ,
-      "Producto04":
+      "Producto4":
       {
         "Name": "Adult Red Dragon",
         "Price": "2,195.00",
@@ -372,7 +372,7 @@
         "Category":"Mini Figure",
         "SubCategory":"Big"
       } ,
-      "Producto05":
+      "Producto5":
       {
         "Name": "Adult Silver Dragon",
         "Price": "2,480.00",
@@ -385,7 +385,7 @@
         "Category":"Mini Figure",
         "SubCategory":"Big"
       } ,
-      "Producto06":
+      "Producto6":
       {
         "Name": "Adult Emerald Dragon",
         "Price": "2,435.00",
@@ -398,7 +398,7 @@
         "Category":"Mini Figure",
         "SubCategory":"Big"
       } ,
-      "Producto07":
+      "Producto7":
       {
         "Name": "Adult Topaz Dragon",
         "Price": "2,000.00",
@@ -411,7 +411,7 @@
         "Category":"Mini Figure",
         "SubCategory":"Big"
       } ,
-      "Producto08":
+      "Producto8":
       {
         "Name": "Ao, the Dawn Sky",
         "Price": "970.00",
@@ -424,7 +424,7 @@
         "Category":"Mini Figure",
         "SubCategory":"Big"
       } ,
-      "Producto09":
+      "Producto9":
       {
         "Name": "Arveiaturace",
         "Price": "2,435.00",
@@ -479,7 +479,7 @@
     } ,
     "4":
     {
-      "Producto01":
+      "Producto1":
       {
         "Name": "Astral Dreadnought",
         "Price": "5,400.00",
@@ -492,7 +492,7 @@
         "Category":"Mini Figure",
         "SubCategory":"Jumbo"
       }, 
-      "Producto02":
+      "Producto2":
       {
         "Name": "Balagos, Ancient Red Dragon",
         "Price": "8,100.00",
@@ -505,7 +505,7 @@
         "Category":"Mini Figure",
         "SubCategory":"Jumbo"
       }, 
-      "Producto03":
+      "Producto3":
       {
         "Name": "Dracohydra",
         "Price": "2,750.00",
@@ -518,7 +518,7 @@
         "Category":"Mini Figure",
         "SubCategory":"Jumbo"
       }, 
-      "Producto04":
+      "Producto4":
       {
         "Name": "Gargantuan Red Dragon",
         "Price": "6,600.00",
@@ -531,7 +531,7 @@
         "Category":"Mini Figure",
         "SubCategory":"Jumbo"
       }, 
-      "Producto05":
+      "Producto5":
       {
         "Name": "Gargantuan Tarrasque",
         "Price": "8,300.00",
@@ -544,7 +544,7 @@
         "Category":"Mini Figure",
         "SubCategory":"Jumbo"
       }, 
-      "Producto06":
+      "Producto6":
       {
         "Name": "Gargantuan Tiamat",
         "Price": "7,500.00",
@@ -557,7 +557,7 @@
         "Category":"Mini Figure",
         "SubCategory":"Jumbo"
       }, 
-      "Producto07":
+      "Producto7":
       {
         "Name": "Gravedrinker",
         "Price": "1,899.00",
@@ -570,7 +570,7 @@
         "Category":"Mini Figure",
         "SubCategory":"Jumbo"
       }, 
-      "Producto08":
+      "Producto8":
       {
         "Name": "Neothelid",
         "Price": "2,800.00",
@@ -583,7 +583,7 @@
         "Category":"Mini Figure",
         "SubCategory":"Jumbo"
       }, 
-      "Producto09":
+      "Producto9":
       {
         "Name": "Phoenix",
         "Price": "3,880.00",
@@ -599,7 +599,7 @@
     } ,
     "5":
     {
-      "Producto01":
+      "Producto1":
       {
         "Name": "3 leches",
         "Price": "190.00",
@@ -612,7 +612,7 @@
         "Category":"Dice",
         "SubCategory":"Marmoleado"
       },
-      "Producto02":
+      "Producto2":
       {
         "Name": "Amatista",
         "Price": "190.00",
@@ -625,7 +625,7 @@
         "Category":"Dice",
         "SubCategory":"Manchado"
       },
-      "Producto03":
+      "Producto3":
       {
         "Name": "Bondad",
         "Price": "95.00",
@@ -638,7 +638,7 @@
         "Category":"Dice",
         "SubCategory":"Mate"
       },
-      "Producto04":
+      "Producto4":
       {
         "Name": "Capricho",
         "Price": "95.00",
@@ -651,7 +651,7 @@
         "Category":"Dice",
         "SubCategory":"Mate"
       },
-      "Producto05":
+      "Producto5":
       {
         "Name": "Cheescake de zarzamora",
         "Price": "190.00",
@@ -664,7 +664,7 @@
         "Category":"Dice",
         "SubCategory":"Marmoleado"
       },
-      "Producto06":
+      "Producto6":
       {
         "Name": "Chicle",
         "Price": "140.00",
@@ -677,7 +677,7 @@
         "Category":"Dice",
         "SubCategory":"Cristalino"
       },
-      "Producto07":
+      "Producto7":
       {
         "Name": "Cobre",
         "Price": "190.00",
@@ -690,7 +690,7 @@
         "Category":"Dice",
         "SubCategory":"Manchado"
       },
-      "Producto08":
+      "Producto8":
       {
         "Name": "Confianza",
         "Price": "95.00",
@@ -703,7 +703,7 @@
         "Category":"Dice",
         "SubCategory":"Mate"
       },
-      "Producto09":
+      "Producto9":
       {
         "Name": "Duna",
         "Price": "190.00",
@@ -758,7 +758,7 @@
     },
     "6":
     {
-      "Producto01":
+      "Producto1":
       {
         "Name": "Dragonlance: Shadow of the Dragon Queen – INGLÉS",
         "Price": "875.00",
@@ -771,7 +771,7 @@
         "Category":"Book",
         "SubCategory":"D&D"
       },
-      "Producto02":
+      "Producto2":
       {
         "Name": "Dragonlance: Shadow of the Dragon Queen (Alternate Cover) – INGLÉS",
         "Price": "875.00",
@@ -784,7 +784,7 @@
         "Category":"Book",
         "SubCategory":"D&D"
       },
-      "Producto03":
+      "Producto3":
       {
         "Name": "Dragonlance: Shadow of the Dragon Queen (Deluxe Edition) – INGLÉS",
         "Price": "3,250.00",
@@ -797,7 +797,7 @@
         "Category":"Book",
         "SubCategory":"D&D"
       },
-      "Producto04":
+      "Producto4":
       {
         "Name": "Dragons of Stormwreck Isle Starter Set",
         "Price": "450.00",
@@ -810,7 +810,7 @@
         "Category":"Book",
         "SubCategory":"D&D"
       },
-      "Producto05":
+      "Producto5":
       {
         "Name": "Dungeon Master Guide",
         "Price": "780.00",
@@ -823,7 +823,7 @@
         "Category":"Book",
         "SubCategory":"D&D"
       },
-      "Producto06":
+      "Producto6":
       {
         "Name": "Essentials Kit",
         "Price": "580.00",
@@ -836,7 +836,7 @@
         "Category":"Book",
         "SubCategory":"D&D"
       },
-      "Producto07":
+      "Producto7":
       {
         "Name": "Fizban’s Treasury of Dragons – INGLÉS",
         "Price": "875.00",
@@ -849,7 +849,7 @@
         "Category":"Book",
         "SubCategory":"D&D"
       },
-      "Producto08":
+      "Producto8":
       {
         "Name": "Journeys Through the Radiant Citadel (Alternative Cover) – INGLÉS",
         "Price": "900.00",
@@ -862,7 +862,7 @@
         "Category":"Book",
         "SubCategory":"D&D"
       },
-      "Producto09":
+      "Producto9":
       {
         "Name": "Keys from the Golden Vault (Alternate Cover) – INGLÉS",
         "Price": "850.00",

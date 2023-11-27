@@ -142,6 +142,7 @@ hr{
   font-weight: var(--bs-btn-font-weight);
   line-height: var(--bs-btn-line-height);
   color: var(--main-colorText);
+  font-size: 1.75rem;
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
@@ -191,11 +192,20 @@ hr{
   width: 295px;
 }
 
+.inputtextError{
+  background-color: var(--main-colorNavBar) !important;
+  color: var(--main-colorText);
+  border-color: red;
+  border-radius: 0.375rem;
+  width: 295px;
+}
+
 .inputSubmit{
   background-color: var(--main-colorNavBar);
   border-color: transparent;
   color: var(--main-colorText);
   width: 295px;
+  height: 40px;
 }
 
 .myPagebtn{
