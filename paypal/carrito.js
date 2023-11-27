@@ -1,7 +1,10 @@
+
 const carrito = {
     anadir : (objecto) => {
         const currrentCarrito = window.localStorage.getItem("carrito");
-        
+
+        if(currrentCarrito == null) window.localStorage.setItem("carrito", JSON.stringify({articulos : []}));
+
         const carritoObj = JSON.parse(currrentCarrito);
         const articulos = carritoObj.articulos;
 
@@ -32,6 +35,8 @@ const carrito = {
     remover : (objeto) => {
         const currrentCarrito = window.localStorage.getItem("carrito");
         
+        if(currrentCarrito == null) window.localStorage.setItem("carrito", JSON.stringify({articulos : []}));
+
         const carritoObj = JSON.parse(currrentCarrito);
         let articulos = carritoObj.articulos;
 
@@ -81,5 +86,4 @@ const carrito = {
     }
 }
 
-window.localStorage.setItem("carrito", JSON.stringify({articulos : []}));
 export default carrito;

@@ -39,7 +39,7 @@ const prod2 = {
   "SubCategory":"Mini"
 } 
 
-      carrito.anadir(producto07);
-      carrito.anadir(producto07);
-      carrito.anadir(prod2);
-      carrito.anadir(prod);
+      //carrito.anadir(producto07);
+      //carrito.anadir(producto07);
+      //carrito.anadir(prod2);
+      //carrito.anadir(prod);
