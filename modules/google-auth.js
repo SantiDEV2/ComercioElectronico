@@ -1,52 +1,46 @@
 import {
-    getAuth,
-    onAuthStateChanged,
-    signOut,
-    signInWithPopup,
-    GoogleAuthProvider,
-  } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-app.js";
+  getAuth,
+  onAuthStateChanged,
+  signOut,
+  signInWithPopup,
+  GoogleAuthProvider,
+} from "https://www.gstatic.com/firebasejs/10.6.0/firebase-auth.js";
 
-  export function authGoogle(app) {
-    const d = document,
-      auth = getAuth(app),
-      provider = new GoogleAuthProvider(),
-      $appAuthGoogle = d.getElementById("app-auth-google");
-  
-    onAuthStateChanged(auth, (user) => {
-      //console.log(user);
-  
-      if (user) {
-        //console.log("Usuario Autenticado");
-        $appAuthGoogle.innerHTML = `
-          <p>Si ves este contenido es porque estas logueado</p>
-          <button id="google-logout">Salir</button>
-          <p>Bienvenido ${user.displayName}</p>
-          <img src="${user.photoURL}" alt="${user.displayName}">
-        `;
-      } else {
-        //console.log("Usuario NO Autenticado");
-        $appAuthGoogle.innerHTML = `<p>El contenido de esta sección es exclusivo para usuarios registrados</p>`;
-      }
-    });
-  
-    d.addEventListener("click", (e) => {
-      if (e.target.matches("#google-login")) {
-        alert("Ingresando con Google");
-  
-        signInWithPopup(auth, provider)
-          .then((res) => {
-            console.log(res);
-            $appAuthGoogle.innerHTML = `<p>Bienvenido ${res.user.displayName}</p>`;
-          })
-          .catch((err) => {
-            console.log(err);
-            $appAuthGoogle.innerHTML = `<p>Error: <i>${err.code}</i> - <b>${err.message}</b></p>`;
-          });
-      }
-  
-      if (e.target.matches("#google-logout")) {
-        alert("Cerrando sesión");
-        signOut(auth);
-      }
-    });
-  }
+export function authGoogle(app){
+  const auth = getAuth(),
+  provider = new GoogleAuthProvider(),
+  $GoogleBtn = document.querySelector("#GoogleBtn");
+
+  let $userText = document.querySelector("#userName"),
+  $accountbtns = document.querySelector("#accountBtns"),
+  $accountInfo = document.querySelector("#accountInfo");
+
+  onAuthStateChanged(auth,(user) =>{
+    if (user) {
+      console.log(true);
+    } else {
+      console.log(false);
+    }
+  })
+
+  document.addEventListener("click",(e) =>{
+    if(e.target.matches("#GoogleBtn"))
+    {
+      signInWithPopup(auth, provider)
+      .then((res) => {
+        const credential = GoogleAuthProvider.credentialFromResult(res);
+        $userText.innerHTML = `<img src="../imgs/UserImg.png" style="width: 30px; height: auto;" class="mx-1">${res.user.displayName}`;
+        $accountInfo.classList.remove("d-none");
+        $accountbtns.classList.add("d-none");
+        console.log(res);
+        console.log(res.user);
+      })
+    }
+    if(e.target.matches("#logout"))
+    {
+      $accountInfo.classList.add("d-none");
+      $accountbtns.classList.remove("d-none")
+      signOut(auth);
+    }
+  })
+}
