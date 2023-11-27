@@ -23,7 +23,7 @@ export function authGoogle(app) {
         .then((res) => {
           const credential = GoogleAuthProvider.credentialFromResult(res);
           const token = credential.accessToken;
-          $accountName = res.user.email;
+          $accountName = res.user.displayName;
           $accountImg = res.user.photoURL;
           localStorage.setItem("userPhoto",$accountImg);
           localStorage.setItem("userEmail",$accountName);
