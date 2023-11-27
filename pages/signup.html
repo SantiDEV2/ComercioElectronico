@@ -15,33 +15,34 @@
   <div class="myContainer">
     <div class="container">
       <div class="row text-center textColor align-items-center py-5 my-5">
-        <form class="offset-lg-3 col-lg-6 offset-lg-3 controlBackground" id="form-login">
-          <h1 class="my-5 fw-bold">Iniciar sesion</h1>
-          <button type="button" class="btn myloginbtn pe-5">
-            <img src="/imgs/Google.png" width="25px" height="auto" class="mx-4" />
-            Continuar con Google
-          </button>
-          <hr />
+        <form class="offset-lg-3 col-lg-6 offset-lg-3 controlBackground" id="form-signin">
+          <h1 class="my-5 fw-bold">Registrarse</h1>
           <div class="my-3">
-            <p style="margin-right: 255px; margin-bottom: 0%">Email</p>
-            <input type="email" name="Email" class="inputText" placeholder="Correo Electronico" required />
+            <p style="margin-bottom: 0%; padding-right: 160px">
+              Nombre de usuario
+            </p>
+            <input type="text" class="inputText" name="Nombre" placeholder="Nombre"
+              pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" title="Este campo sólo acepta letras y espacios en blanco" required
+              minlength="6" />
           </div>
           <div class="my-3">
-            <p style="margin-right: 215px; margin-bottom: 0%">Contraseña</p>
-            <input type="password" name="Password" class="inputText" required placeholder="Contraseña" />
+            <p style="margin-bottom: 0%; padding-right: 165px">
+              Correo Electronico
+            </p>
+            <input type="email" class="inputText" name="Email"
+              pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+              title="Este campo acepta letras,numeros y espacios en blanco" required placeholder="Correo Electronico" />
+          </div>
+          <div class="my-3">
+            <p style="margin-bottom: 0%; padding-right: 210px">Contraseña</p>
+            <input type="password" class="inputText" name="Password"
+              title="Este campo acepta letras,numeros y espacios en blanco" required placeholder="Contraseña" />
+          </div>
+          <hr />
+          <div>
+            <input type="submit" value="Crear cuenta" name="Subir" class="inputSubmit my-2 border30" />
           </div>
           <div id="testText"></div>
-          <button type="submit" class="inputSubmit my-2 border30">
-            Iniciar sesion
-          </button>
-          <p>
-            <a href="" class="notA fw-bold text-decoration-underline">Olvidaste tu contraseña?</a>
-          </p>
-          <hr />
-          <p>
-            No tienes una cuenta?
-            <a href="signup.html" class="notA fw-bold text-decoration-underline">Registrate</a>
-          </p>
         </form>
       </div>
     </div>
