@@ -12,7 +12,7 @@ const carrito = {
                 
                 articulo.agregados++;
                 if(articulo.agregados > articulo.Storage)
-                    articulo.agregados = articulo.Storage;
+                    articulo.agregados--;
                 actualizado = true;
             }
 

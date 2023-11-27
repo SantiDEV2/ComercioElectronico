@@ -21,35 +21,7 @@ window.paypal.Buttons({
             console.log(accessToken);
 
             //HACER QUE AGARRE EL CARRITO DE COMPRAS
-            const payload = {
-                intent: "CAPTURE",
-                purchase_units:[
-                    {
-                        amount:{
-                            currency_code: "MXN",
-                            value: "400.00",
-                            breakdown:{
-                                item_total:{
-                                    currency_code: "MXN",
-                                    value: "400.00"
-                                }
-                            }
-                        },
-                        //LLENAR CON LOS DATOS DEL CARRITO DE COMPRA
-                        items:[
-                            {
-                                name: "Figura dildo max 3",
-                                description: "Esta es una figura exoplastica de 3 velocidades con 2 anillo reductores",
-                                quantity: 2,
-                                unit_amount:{
-                                    currency_code: "MXN",
-                                    value:"200.00"
-                                }
-                            }
-                        ]
-                    }
-                ]
-            }
+            const payload = getPayload();
 
             const response = await fetch("https://api-m.sandbox.paypal.com/v2/checkout/orders",{
                 method: "POST",
@@ -64,6 +36,8 @@ window.paypal.Buttons({
             return json.id;
         }catch(e){            
             resultMessage(`No se puso inicializar el checkout...<br><br> ${e}`)
+            console.warn("NO SE PUDO INCIALIZAR")
+            console.warn(e)
             return;
         }
     },
@@ -79,6 +53,55 @@ window.paypal.Buttons({
         label:  'paypal'
     }
 }).render('#paypal-button-container');
+
+function getPayload(){
+    const articulos = carrito.obtenerArticulos();
+    
+    let payload = {
+        intent: "CAPTURE",
+        purchase_units:[]
+    }
+
+    const items = articulos.map((articulo) => {
+        return{
+            
+            name: articulo.Name,
+            description: articulo.Description,
+            quantity: articulo.agregados,
+            unit_amount:{
+                currency_code: "MXN",
+                value:articulo.Price
+            }
+            
+        }
+    });
+    
+    let totalPrice = 0;
+    articulos.forEach((articulo) => {
+        totalPrice += articulo.Price * articulo.agregados;
+    })
+
+    console.log(totalPrice);
+
+    payload.purchase_units = [{
+        amount:{
+            currency_code: "MXN",
+            value: totalPrice,
+            breakdown:{
+                item_total:{
+                    currency_code: "MXN",
+                    value: totalPrice
+                }
+            }
+        },
+        items
+    }]
+
+    
+    console.log(payload);
+
+    return payload;
+}
 
 function resultMessage(message) {
     carrito.comprarCarrito();
