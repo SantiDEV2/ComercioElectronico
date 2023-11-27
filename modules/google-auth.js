@@ -21,6 +21,7 @@ export function authGoogle(app) {
     if (e.target.matches("#GoogleBtn")) {
       signInWithPopup(auth, provider)
         .then((res) => {
+          localStorage.clear();
           const credential = GoogleAuthProvider.credentialFromResult(res);
           const token = credential.accessToken;
           $accountName = res.user.displayName;

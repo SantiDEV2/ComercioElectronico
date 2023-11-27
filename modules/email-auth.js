@@ -86,6 +86,7 @@ export function authEmail(app) {
       signInWithEmailAndPassword(auth, $form.Email.value, $form.Password.value)
         .then((res) => {
           console.log(res);
+          localStorage.clear();
           $accountEmail = res.user.email;
           localStorage.setItem("userEmail", $accountEmail)
           $userText.innerHTML = `<img src="../imgs/UserImg.png" style="width: 30px; height: auto;" class="mx-1">${$form.Email.value}`;
