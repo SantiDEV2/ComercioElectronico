@@ -7,6 +7,11 @@ import {
 } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-auth.js";
 
 let $inputs = document.querySelectorAll(".inputText");
+let $testText = document.querySelector("#userName");
+let $userText = document.querySelector("#userName");
+let $accountbtns = document.querySelector("#accountBtns");
+let $accountInfo = document.querySelector("#accountInfo");
+let $accountEmail;
 
 $inputs.forEach((el) => {
   let $small = document.createElement("small");
@@ -46,8 +51,12 @@ export function authEmail(app) {
   const auth = getAuth(app);
   onAuthStateChanged(auth, (user) => {
     if (user) {
-      console.log(true);
+      $userText.innerHTML = `<img src="../imgs/UserImg.png" style="width: 30px; height: auto;" class="mx-1">${localStorage.getItem("userEmail")}`;
+      $accountInfo.classList.remove("d-none");
+      $accountbtns.classList.add("d-none");
     } else {
+      $accountInfo.classList.add("d-none");
+      $accountbtns.classList.remove("d-none")
       console.log(false);
     }
   });
@@ -55,10 +64,6 @@ export function authEmail(app) {
   document.addEventListener("submit", (e) => {
     e.preventDefault();
     let $form = e.target;
-    let $testText = document.querySelector("#testText");
-    let $userText = document.querySelector("#userName");
-    let $accountbtns = document.querySelector("#accountBtns");
-    let $accountInfo = document.querySelector("#accountInfo");
     if ($form.matches("#form-signin")) {
       createUserWithEmailAndPassword(
         auth,
@@ -81,6 +86,8 @@ export function authEmail(app) {
       signInWithEmailAndPassword(auth, $form.Email.value, $form.Password.value)
         .then((res) => {
           console.log(res);
+          $accountEmail = res.user.email;
+          localStorage.setItem("userEmail", $accountEmail)
           $userText.innerHTML = `<img src="../imgs/UserImg.png" style="width: 30px; height: auto;" class="mx-1">${$form.Email.value}`;
           $accountInfo.classList.remove("d-none");
           $accountbtns.classList.add("d-none");
