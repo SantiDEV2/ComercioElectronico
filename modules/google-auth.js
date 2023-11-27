@@ -25,6 +25,7 @@ export function authGoogle(app) {
           const token = credential.accessToken;
           $accountName = res.user.displayName;
           $accountImg = res.user.photoURL;
+          console.log($accountName);
           localStorage.setItem("userPhoto",$accountImg);
           localStorage.setItem("userEmail",$accountName);
           $userText.innerHTML = `<img src="${res.user.photoURL}" style="width: 30px; height: auto;" class="mx-1" border-30>${res.user.displayName}`;
