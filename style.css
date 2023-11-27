@@ -7,6 +7,10 @@
   --main-colorComplement: rgb(24, 38, 52);
 }
 
+body{
+  overflow-x: hidden;
+}
+
 hr{
   border: 3px solid !important;
   color: var(--main-colorComplement) !important;
