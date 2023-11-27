@@ -81,7 +81,7 @@ export function authEmail(app) {
       signInWithEmailAndPassword(auth, $form.Email.value, $form.Password.value)
         .then((res) => {
           console.log(res);
-          $userText.innerHTML = `<img src="/imgs/UserImg.png" style="width: 30px; height: auto;" class="mx-1">${$form.Email.value}`;
+          $userText.innerHTML = `<img src="../imgs/UserImg.png" style="width: 30px; height: auto;" class="mx-1">${$form.Email.value}`;
           $accountInfo.classList.remove("d-none");
           $accountbtns.classList.add("d-none");
           $form.reset();
