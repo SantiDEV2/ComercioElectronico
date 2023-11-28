@@ -6,6 +6,9 @@ Nuestro Comercio Electronico será sobre mini figuras para juegos de rol tipo "D
 ## Integrantes:
 
 - Luis Alfonso Martín Velázquez : Implementación de pago con Paypal
+  - Implementación de paypal
+  - Implementacion del carrito de compras
+  - Conexion del carrito de compras con paypal
 - Edson Gutierrez Prado : 
   -Hoja de estilos
   - Animaciones de css
