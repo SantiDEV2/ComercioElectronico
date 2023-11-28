@@ -11,6 +11,8 @@ let $testText = document.querySelector("#userName");
 let $userText = document.querySelector("#userName");
 let $accountbtns = document.querySelector("#accountBtns");
 let $accountInfo = document.querySelector("#accountInfo");
+let $categoriesDropdown = document.querySelector("#categoriesDropdown")
+let $shoppingCart = document.querySelector("#shoppingCart")
 let $accountEmail;
 
 $inputs.forEach((el) => {
@@ -54,9 +56,13 @@ export function authEmail(app) {
       $userText.innerHTML = `<img src="./imgs/UserImg.png" style="width: 30px; height: auto;" class="mx-1">${localStorage.getItem("userEmail")}`;
       $accountInfo.classList.remove("d-none");
       $accountbtns.classList.add("d-none");
+      $categoriesDropdown.classList.add("d-none");
+      $shoppingCart.classList.remove("d-none");
     } else {
       $accountInfo.classList.add("d-none");
       $accountbtns.classList.remove("d-none")
+      $categoriesDropdown.classList.remove("d-none")
+      $shoppingCart.classList.add("d-none")
       console.log(false);
     }
   });

@@ -57,6 +57,10 @@ window.paypal.Buttons({
 function getPayload(){
     const articulos = carrito.obtenerArticulos();
     
+    if(articulos == null){
+        throw new Error("No hay carrito de compra");
+    }
+    
     let payload = {
         intent: "CAPTURE",
         purchase_units:[]

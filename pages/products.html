@@ -15,6 +15,33 @@
   <div class="myContainer">
     <div class="container">
       <div class="row text-center textColor">
+         <div class=" offset-lg-8 col-lg-4 controlBackground border30 d-none" id="displayCart">
+          <h2>Carrito</h2>
+          <div class="text-start px-4">
+            <img src="./imgs/TestImage.png" style="width: 60px;">
+            <small class="textColor">Nombre del Prodycto</small>
+            <br>
+            <small class="textColor">Remove</small>
+            <h4 style="color: black;">$80</h4>
+          </div>
+          <div class="text-start px-4">
+            <img src="./imgs/TestImage.png" style="width: 60px;">
+            <small class="textColor">Nombre del Prodycto</small>
+            <br>
+            <small class="textColor">Remove</small>
+            <h4 style="color: black;">$80</h4>
+          </div>
+          <div class="text-start px-4">
+            <img src="./imgs/TestImage.png" style="width: 60px;">
+            <small class="textColor">Nombre del Prodycto</small>
+            <br>
+            <small class="textColor">Remove</small>
+            <h4 style="color: black;">$80</h4>
+          </div>
+          <hr>
+          <a href="/paypal/Paypal.html"><input type="button" class="myloginbtn" style="width: 200px; border-color: transparent;" value="Checkout"></a>
+          <br><br>
+        </div>
         <div class="col-lg-12">
           <h1 class="my-5 fw-bold" style="letter-spacing: 5px">
             Titulo de Seccion
@@ -76,19 +103,24 @@
           </div>
           <div class="offset-lg-1 col-lg-3">
             <div class="d-flex align-items-center">
-              <div class="dropdown">
+              <div class="dropdown" id="categoriesDropdown">
                 <button class="btn dropdown-toggle textColor" type="button" data-bs-toggle="dropdown">
                   Categorias
                 </button>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item hover" href="#">Action</a></li>
                   <li>
-                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item hover" href="#">Another action</a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item hover" href="#">Something else here</a>
                   </li>
                 </ul>
+              </div>
+              <div class="d-none" id="shoppingCart">
+                <button type="button" id="shoppingCart"
+                  style="background-color: transparent; border-color: transparent;"><img src="/imgs/ShoppingCart.png"
+                    id="shoppingCart" style="width: 45px; height: auto;"></button>
               </div>
               <form class="remButton" id="accountBtns">
                 <button class="mybtnNavbar btn-sm" type="button">
