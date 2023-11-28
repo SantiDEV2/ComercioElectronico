@@ -51,7 +51,7 @@ export function authEmail(app) {
   const auth = getAuth(app);
   onAuthStateChanged(auth, (user) => {
     if (user) {
-      $userText.innerHTML = `<img src="../imgs/UserImg.png" style="width: 30px; height: auto;" class="mx-1">${localStorage.getItem("userEmail")}`;
+      $userText.innerHTML = `<img src="./imgs/UserImg.png" style="width: 30px; height: auto;" class="mx-1">${localStorage.getItem("userEmail")}`;
       $accountInfo.classList.remove("d-none");
       $accountbtns.classList.add("d-none");
     } else {
